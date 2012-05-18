@@ -1,0 +1,550 @@
+# German translations for PACKAGE package
+# German messages for PACKAGE.
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# David Lewetz <pw3@gmx.at>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-22 02:54+0200\n"
+"PO-Revision-Date: 2012-01-04 12:22+0100\n"
+"Last-Translator: David Lewetz <pw3@gmx.at>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension.js:4180
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: extension.js:4313
+msgid "Box-settings"
+msgstr "Box-Einstellungen"
+
+#: extension.js:4320
+msgid "Remove from Favorites"
+msgstr "Von Favoriten entfernen"
+
+#: extension.js:4324
+msgid "Add to Favorites"
+msgstr "Zu Favoriten hinzufügen"
+
+#: extension.js:4337
+msgid "To left screen"
+msgstr "Zum linken Monitor"
+
+#: extension.js:4346
+msgid "To right screen"
+msgstr "Zum rechten Monitor"
+
+#: extension.js:4354
+msgid "To workspace above"
+msgstr "Zur oberen Arbeitsfläche"
+
+#: extension.js:4360
+msgid "To workspace below"
+msgstr "Zur unteren Arbeitsfläche"
+
+#: extension.js:4368
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: extension.js:4374 extension.js:5020
+msgid "Minimize"
+msgstr "Minimieren"
+
+#: extension.js:4381 extension.js:5020
+msgid "Close Window"
+msgstr "Fenster schließen"
+
+#: extension.js:4390 extension.js:5020
+msgid "New Window"
+msgstr "Neues Fenster"
+
+#: extension.js:4394 extension.js:5020
+msgid "Quit Application"
+msgstr "Applikation beenden"
+
+#: extension.js:4555
+msgid "Undo"
+msgstr "Rückgängig"
+
+#: extension.js:4564
+msgid "Main-Box"
+msgstr "Hauptbox"
+
+#: extension.js:4568
+msgid "Welcome Stranger!"
+msgstr "Willkommen Fremder!"
+
+#: extension.js:4568
+msgid ""
+"There are a lot of settings, which can help you to costumize this extention "
+"to your needs.\n"
+"Also, there are four preconfigurations you can use.\n"
+"The preconfigurations are just changing already existing settings. So, you "
+"don't actually need them. But they can help you save time.\n"
+"\n"
+"You can open this dialog again by clicking with the right Mouse-Button on "
+"the box and then click on the settings-Button\n"
+"\n"
+"\n"
+"Please feel free to contact me, if you find bug, have suggestions, critics "
+"or feedback.\n"
+"I am allways happy about input - what kind ever. :-)\n"
+"\n"
+"Jodli (pw3@gmx.at)"
+msgstr ""
+"Es gibt große Zahl an Einstellungen um diese Erweiterung deinen Wünschen "
+"anzupassen.\n"
+"Auch gibt es vier Vorkonfigurationen, welche du verwenden kannst.\n"
+"Diese ändern nur bereits bestehende Einstellungen. Du musst sie also nicht "
+"einzusetzen. Sie sollen nur helfen Zeit zu sparen.\n"
+"\n"
+"Du kannst dieses Fenster wieder öffnen, indem du mit der rechten Maustaste "
+"auf die Box und dann auf den settings-Button klickst.\n"
+"\n"
+"\n"
+"Bitte zögere nicht mich zu kontaktiveren, falls Du Fehler finden sollstest, "
+"Vorschläge, Kritik oder Feedback hast.\n"
+"Ich freue mich immer über Feedback - egal welcher Art. :-)\n"
+"\n"
+"Jodli (pw3@gmx.at)"
+
+#: extension.js:4580
+msgid "Preconfigurations"
+msgstr "Voreinstellungen"
+
+#: extension.js:4581
+msgid ""
+"You can chose one of already existing preconfigurations. \n"
+"They are just altering already existing settings. So you don't have to use "
+"them."
+msgstr ""
+"Du kannst eine der bereits existierenden Voreinstellungen wählen. \n"
+"Diese verändern nur bereits existierende Einstellungen, sind also nicht "
+"zwingend."
+
+#: extension.js:4583
+msgid "Overal"
+msgstr "Allgemein"
+
+#: extension.js:4584
+#, fuzzy
+msgid "Box - overal"
+msgstr "Box - Allgemein"
+
+#: extension.js:4585
+msgid "Box - placing"
+msgstr "Box - Platzierung"
+
+#: extension.js:4586
+msgid "Window-Icons - overal"
+msgstr "Fenster-Icons - Allgemein"
+
+#: extension.js:4586
+msgid "This settings regard the behavior and appearance of the window-icons."
+msgstr "Diese Einstellungen betreffen die Fenster-icons."
+
+#: extension.js:4587
+msgid "Window-Icons - filter"
+msgstr "Fenster-Icons - Filter"
+
+#: extension.js:4587
+msgid "You can change when a window-icon will (or will not) be created."
+msgstr "Legt fest, für welche Fenster, Fenster-Icons erstellt werden sollen"
+
+#: extension.js:4588
+msgid "Favorites"
+msgstr "Favoriten"
+
+#: extension.js:4588
+msgid ""
+"Both settings are possible at the same time.\n"
+"If you really need it. ;-)"
+msgstr ""
+"Beide Einstellungen sind gleichzeitig möglich.\n"
+"Sollte es wirklich nötig sein. ;-)"
+
+#: extension.js:4589
+msgid "Additional"
+msgstr "Zusätzliches"
+
+#: extension.js:4589
+msgid "Here, you can add additional buttons to the left of the box."
+msgstr ""
+"Hier können zusätzliche Buttons an die linke Seite der Box hinzugefügt "
+"werden."
+
+#: extension.js:4803
+msgid "First time startup"
+msgstr "Erster Start"
+
+#: extension.js:4807
+msgid "Panel-Docklet"
+msgstr "Panel-Docklet"
+
+#: extension.js:4848
+msgid "Panel"
+msgstr "Panel"
+
+#: extension.js:4884
+msgid "Big Panel"
+msgstr "Großes Panel"
+
+#: extension.js:4921
+msgid "Docklet"
+msgstr "Docklet"
+
+#: extension.js:4960
+msgid "Restore Defaults"
+msgstr "Standartwerte wiederherstellen"
+
+#: extension.js:4972
+msgid "Always"
+msgstr "Immer"
+
+#: extension.js:4972
+msgid "Auto"
+msgstr "Auto"
+
+#: extension.js:4972
+msgid "Never"
+msgstr "Nie"
+
+#: extension.js:4973
+msgid "Create tray-button"
+msgstr "Tray-Button erzeugen"
+
+#: extension.js:4974
+msgid ""
+"When the box is positioned at the bottom of the screen, the message-tray "
+"(and its \"blind-pixel-row\" at the bottom) can be annoying. So, the bottom-"
+"right hot-Corner can be replaced with a button. \"Auto\" only adds this "
+"button, when necessary."
+msgstr ""
+"Wenn die Box unten positioniert ist, kann der Message-Tray (und sein "
+"\"blinder-Pixel-Streifen\" am unteren Bildschirmrand) behindernd sein. "
+"Deshalb kann das rechts-untere \"Hot-Corner\" durch einen Button ersetzt "
+"werden. \"Auto\" fügt diesen Button nur hinzu, wenn er nötig wird."
+
+#: extension.js:4976
+msgid "Desktop-button"
+msgstr "Desktop-Button"
+
+#: extension.js:4979
+msgid "Workspace-navigator"
+msgstr "Arbeitsflächen-Wechlser"
+
+#: extension.js:4986
+msgid "Number of buttons"
+msgstr "Anzahl der Buttons"
+
+#: extension.js:4991
+msgid "Workspace-number"
+msgstr "Arbeitsflächen-Zahl"
+
+#: extension.js:4997
+msgid "Ignore other monitors"
+msgstr "Ignoriere andere Bildschirme"
+
+#: extension.js:4997
+msgid "Window-icons are only created for windows on this monitor."
+msgstr "Fenster-icons werden nur für Fenster auf diesem Bildschirm erstellt."
+
+#: extension.js:5000
+msgid "List all workspaces"
+msgstr "Alle Arbeitsflächen auflisten"
+
+#: extension.js:5000
+msgid ""
+"(if auto-hide is enabled: Other workspaces will only show on mouse-over)"
+msgstr ""
+"(ist Automatisches Verstecken aktiviert: auflisten erst beim Überfahren mit "
+"der Maus)"
+
+#: extension.js:5003
+msgid "Group icons"
+msgstr "Icons gruppieren"
+
+#: extension.js:5003
+msgid "Every application will have only one icon per workspace."
+msgstr "Jedes Programm bekommt nur ein Icon pro Arbeitsfläche."
+
+#: extension.js:5010
+msgid "Order icons"
+msgstr "Icons sortieren"
+
+#: extension.js:5010
+msgid ""
+"New window-icons will be placed next to an icon of the same application."
+msgstr ""
+"Neue Fenster-icons werden automatisch neben ein Icon desselben Programms "
+"geschoben."
+
+#: extension.js:5021
+msgid "Icon-middle-click-action"
+msgstr "Icon-mittel-click-Aktion"
+
+#: extension.js:5021
+msgid ""
+"(\"Close Window\" closes always only the current window, also when \"Group "
+"icons\" is enabled)"
+msgstr ""
+"(\"Fenster schließen\" schließt immer nur das aktuelle Fenster. Auch wenn "
+"\"Icons gruppieren\" aktiviert ist)"
+
+#: extension.js:5027
+msgid "Window-number"
+msgstr "Fenster-Nummer"
+
+#: extension.js:5028
+msgid ""
+"If \"Group icons\" is enabled: it indicates the number of application-"
+"windows.\n"
+"If disabled: It indicates the window-index for its application."
+msgstr ""
+"Wenn \"Icons gruppieren\" aktiviert ist: Zeigt sie die Anzahl der Programm-"
+"Fenster.\n"
+"Wenn deaktivert: Zeigt sie den Fenster-index für das entsprechende Programm."
+
+#: extension.js:5035
+msgid "Smart window-number"
+msgstr "Intelligente Fenster-Nummer"
+
+#: extension.js:5036
+msgid "Number will only be shown, if greater than 1."
+msgstr "Die Nummer wird nur eingeblendet, wenn sie größer als 1 ist."
+
+#: extension.js:5041
+msgid "Window-title"
+msgstr "Fenstertitel"
+
+#: extension.js:5049
+msgid "Maximun button-height"
+msgstr "Maximale Button-Höhe"
+
+#: extension.js:5049
+msgid "Maximum button-width"
+msgstr "Maximale Button-Breite"
+
+#: extension.js:5054
+msgid "Button-width"
+msgstr "Button-Breite"
+
+#: extension.js:5054
+msgid "Button-height"
+msgstr "Button-Höhe"
+
+#: extension.js:5054
+msgid "If \"Window-title\" is enabled, font-size depends on icon-height."
+msgstr ""
+
+#: extension.js:5059
+msgid "Favorites as buttons"
+msgstr "Favoriten als Buttons"
+
+#: extension.js:5061
+msgid "Favorites as window-icons"
+msgstr "Favoriten als Fenster-icons"
+
+#: extension.js:5062
+msgid "Favorites will be added to the box and behave like window-icons"
+msgstr ""
+"Favoriten werden zur Box hinzugefügt und verhalten sich wie Fenster-icons."
+
+#: extension.js:5068
+msgid "On all monitors"
+msgstr "Auf allen Bildschirmen"
+
+#: extension.js:5068
+msgid "Boxes are created on every screen and are managed seperatly"
+msgstr ""
+"Auf allen Bildschirmen werden Boxen erstellt, welche unabhängig voneinander "
+"konfiguriert werden können."
+
+#: extension.js:5072
+msgid "Right-click window-list"
+msgstr "Rechts-klick Fenster-Liste"
+
+#: extension.js:5072
+msgid "List all application-windows in right-click-menu"
+msgstr "Listet alle Programm-Fenster im Rechts-klick-Menü, auf"
+
+#: extension.js:5075
+msgid "Window preview"
+msgstr "Fenster-Vorschau"
+
+#: extension.js:5075
+msgid ""
+"Show window preview in right-click-menu instead of just the window title "
+"(affects right-click-menu, icon-hover-menu and drag-over-menu)"
+msgstr ""
+"Fenster-Vorschau im rechtsklick-Menü anstatt einer einfachen Titel-Angabe "
+"(beeinflusst auch die Anzeige des Hover-Menüs)"
+
+#: extension.js:5078
+msgid "Window-list on hover"
+msgstr "Fensterliste bei hover"
+
+#: extension.js:5085
+msgid "Hover-timeout"
+msgstr ""
+
+#: extension.js:5090
+msgid "Fisheye-effect"
+msgstr "Fish-Augen-Effekt"
+
+#: extension.js:5096
+msgid "Auto-hide"
+msgstr "Automatisches Verstecken"
+
+#: extension.js:5096
+msgid "if enabled: Wont hide, when desktop is shown."
+msgstr ""
+"Wenn aktiviert: Wird nicht versteckt, sobald der Desktop angezeigt wird"
+
+#: extension.js:5115
+msgid "Always in view"
+msgstr "Immer im Sichtbereich"
+
+#: extension.js:5116
+msgid ""
+"How much of the box should stay in the view, when the box is hidden (0 is "
+"almost outside the view, "
+msgstr ""
+"Wieviel von der Box sichtbar bleiben soll, wenn diese versteckt ist (0 ist "
+"so gut wie völlig außerhalb des Sichtbereichs, "
+
+#: extension.js:5116
+msgid " [icon-size] is no movement)."
+msgstr " [icon-Größe] bedeutet keine Bewegung)."
+
+#: extension.js:5119
+msgid "Hidden Transparency"
+msgstr "Versteck-Transparenz"
+
+#: extension.js:5119
+msgid "0 is invisible, 255 is fully visible."
+msgstr "0 ist unsichtbar, 255 ist völlig sichtbar."
+
+#: extension.js:5124
+msgid "Show-time"
+msgstr "Einblende-Zeit"
+
+#: extension.js:5126
+msgid "Hide-time"
+msgstr "Versteck-Zeit"
+
+#: extension.js:5130
+msgid "Hide-waiting-time"
+msgstr "Versteck-Warte-Zeit"
+
+#: extension.js:5130
+msgid "The delay from when the box should start hiding after mouse-out."
+msgstr ""
+"Die Zeitverzögerung nachdem der Versteck-Vorgang nach dem Verlassen der Maus "
+"begonnen werden soll."
+
+#: extension.js:5133
+msgid "Show-waiting-time"
+msgstr "Einblende-Warte-Zeit"
+
+#: extension.js:5133
+msgid "The delay from when the box should start showing after mouse-over."
+msgstr ""
+"Die Zeitverzögerung nachdem der Einblende-Vorgang nach dem Verlassen der "
+"Maus begonnen werden soll."
+
+#: extension.js:5149
+msgid "Cut view-region"
+msgstr "Beschneide Arbeitsfläche"
+
+#: extension.js:5149
+msgid "Prevent the box from covering parts of the screen."
+msgstr "Verhindere das Überdecken der Arbeitsfläche durch die Box."
+
+#: extension.js:5156
+msgid "Cut more"
+msgstr ""
+
+#: extension.js:5156
+msgid "Space between box and view-region"
+msgstr ""
+
+#: extension.js:5167
+msgid "Top"
+msgstr "Oben"
+
+#: extension.js:5167
+msgid "Below Panel"
+msgstr "Unter Panel"
+
+#: extension.js:5167
+msgid "Bottom"
+msgstr "Unten"
+
+#: extension.js:5167
+msgid "Left"
+msgstr "Links"
+
+#: extension.js:5167
+msgid "Right"
+msgstr "Rechts"
+
+#: extension.js:5168
+msgid "Screen-position"
+msgstr "Monitor-Position"
+
+#: extension.js:5170
+msgid "Start"
+msgstr "Start"
+
+#: extension.js:5170
+msgid "Middle"
+msgstr "Mitte"
+
+#: extension.js:5170
+msgid "End"
+msgstr "Ende"
+
+#: extension.js:5171
+msgid "Fixed at"
+msgstr "Fixiert an"
+
+#: extension.js:5181
+msgid "Box-size depends on number of icons"
+msgstr "Größe ist abhängig von Icon-Anzahl"
+
+#: extension.js:5181
+msgid "If enabled, \"Box-size\" will be considered as min-width."
+msgstr ""
+"Wenn aktiviert, wird die eingestellte \"Box-Größe\" als Mindest-Breite "
+"behandelt."
+
+#: extension.js:5190 extension.js:5195
+msgid "Box-size"
+msgstr "Box-Größe"
+
+#: extension.js:5198
+msgid "Position"
+msgstr "Position"
+
+#~ msgid "Global"
+#~ msgstr "Allgemein"
+
+#~ msgid "Box"
+#~ msgstr "Box"
+
+#~ msgid "Fine tuning"
+#~ msgstr "Feineinstellungen"
+
+#~ msgid "This settings are only considered if \"Auto-hide\" is enabled."
+#~ msgstr ""
+#~ "Diese Optionen werden nur berücksichtigt, wenn \"Automatisches Verstecken"
+#~ "\" aktiviert ist."

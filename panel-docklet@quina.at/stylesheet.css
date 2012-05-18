@@ -1,0 +1,397 @@
+.panelDocklet {
+	/*background-color mimics background-color from Main.panel.actor: ~270*/
+	border:1px solid #536272;
+	padding: 10px;
+	color:#ddd;
+}
+.panelDocklet.top {
+	padding:0 3px 3px 3px;
+	border-top-width:0;
+	border-radius: 0 0 3px 3px;
+    box-shadow: outset 0px 2px 4px rgba(0,0,0, 0.7);
+}
+.panelDocklet.bottom {
+	padding: 3px 3px 0 3px;
+	border-bottom-width:0;
+	border-radius: 3px 3px 0 0;
+    box-shadow: outset 0px -2px 4px rgba(0,0,0, 0.7);
+}
+.panelDocklet.left {
+	padding: 3px 3px 3px 0;
+	border-left-width:0;
+	border-radius: 0 3px 3px 0;
+    box-shadow: outset 2px 0px 4px rgba(0,0,0, 0.7);
+}
+.panelDocklet.right {
+	padding: 3px 0 3px 3px;
+	border-right-width:0;
+	border-radius: 3px 0 0 3px;
+    box-shadow: outset -2px 0px 4px rgba(0,0,0, 0.7);
+}
+.panelDocklet .windowIconButton {
+	padding:3px;
+	border-radius:5px;
+	color:#bbb;
+}
+.panelDocklet .windowIconButton:focused {
+	border:1px solid #888;
+	border-right-width:0;
+	
+	border-bottom-width:0;
+	padding-top:2px;
+	padding-left:2px;
+	
+	background-gradient-direction: vertical;
+	background-gradient-start: rgb(20,20,20);
+	background-gradient-end: rgba(150,150,150,0.5);
+}
+.panelDocklet .windowIconButton:attention {
+	background-gradient-start: rgba(255,0,0,0.7);
+	background-gradient-end: rgba(255,0,0,0.3);
+	background-gradient-direction: vertical;
+}
+.panelDocklet .favIcon:hover {
+	padding:2px 2px;
+	border:1px solid #999;
+}
+
+.panelDocklet .windowIconButton .labled_background {
+	background-gradient-start: rgba(70,70,70, 0.7);
+	background-gradient-end: rgba(50,50,50, 0.2);
+	background-gradient-direction: vertical;
+	border-radius:3px;
+	font-weight:bold;
+	line-height:50px;
+}
+.panelDocklet .windowIconButton:attention .labled_background {
+	background-gradient-start: rgb(200,50,50);
+	background-gradient-end: rgb(80,30,30);
+}
+.panelDocklet .windowIconButton:focused .labled_background {
+	/*
+	FIXME: There must be a better way to do this...
+	*/
+	background-gradient-start: rgba(0,0,0,0);
+	background-gradient-end: rgba(0,0,0,0);
+}
+.panelDocklet .windowIconButton .windowNumber {
+	padding:1px 3px;
+	font-size:8px;
+	font-weight:bold;
+	border-radius:7px;
+	border:1px solid #555;
+	color:black;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(250,250,250, 0.8);
+	background-gradient-end: rgba(120,120,120, 0.8);
+}
+
+.panelDocklet .moveTo {
+	background-image: url("move_to.svg");
+	width:15px;
+	height:15px;
+}
+
+.panelDocklet .extraContainer {
+	border-radius:4px;
+	border:1px solid #536272;
+}
+
+.panelDocklet.top .extraContainer {
+	border-left-width:0;
+	border-bottom-width:0;
+	background-gradient-start: rgba(255,255,255, 0.2);
+	background-gradient-end: rgba(0,0,0.0);
+	background-gradient-direction: vertical;
+}
+.panelDocklet.bottom .extraContainer {
+	border-left-width:0;
+	border-top-width:0;
+	background-gradient-start: rgba(0,0,0.0);
+	background-gradient-end: rgba(255,255,255, 0.2);
+	background-gradient-direction: vertical;
+}
+.panelDocklet.left .extraContainer {
+	border-top-width:0;
+	border-right-width:0;
+	background-gradient-start: rgba(255,255,255, 0.2);
+	background-gradient-end: rgba(0,0,0.0);
+	background-gradient-direction: horizontal;
+}
+.panelDocklet.right .extraContainer {
+	border-top-width:0;
+	border-left-width:0;
+	background-gradient-start: rgba(0,0,0.0);
+	background-gradient-end: rgba(255,255,255, 0.2);
+	background-gradient-direction: horizontal;
+}
+.panelDocklet .wsLabelMain {
+    text-align: center;
+    font-size:10px;
+    font-weight:bold;
+    color:#ccc;
+	text-align: center;
+}
+
+.panelDocklet .wsNavigator {
+	border: 1px solid #888;
+	color: #eee;
+	background-color: rgba(200,200,200,0.1);
+}
+.panelDocklet.top .wsNavigator {
+	border-top-width:3px;
+}
+.panelDocklet.bottom .wsNavigator {
+	border-bottom-width:3px;
+}
+.panelDocklet.left .wsNavigator {
+	border-left-width:3px;
+}
+.panelDocklet.right .wsNavigator {
+	border-right-width:3px;
+}
+.panelDocklet .wsNavigator:hover {
+	border-color: #ccc;
+}
+.panelDocklet .wsNavigator:focused {
+	background-color: rgba(200,200,200,0.3);
+	border-color: #ccc;
+	border-width:1px;
+}
+
+
+.panelDocklet .toDesktop {
+	background-image: url("to_desktop.svg");
+	background-size: contain;
+	border-radius:8px;
+}
+.panelDocklet .toDesktop:hover {
+	background-color:#444;
+}
+
+.panelDocklet .wsListBack {
+	border-radius:3px;
+	border:1px solid #666;
+	background-gradient-start: rgb(25,25,25);
+	background-gradient-end: rgb(35,35,35);
+	background-gradient-direction: vertical;
+}
+
+.panelDocklet_trayButton {
+	background-image: url("tray_button.svg");
+	width: 16px;
+	height: 16px;
+}
+.panelDocklet_trayButton:hover {
+	background-image: url("tray_button_hover.svg");
+}
+
+
+.panelDocklet_popup {
+	color:#888;
+}
+
+.panelDocklet_popup .settings_button {
+	background-image: url("settings.png");
+	background-size: contain;
+	width:32px;
+	height:32px;
+}
+
+.panelDocklet_popup .winLine {
+	padding:4px 18px;
+}
+
+.windowTexture_label {
+	background-color:black;
+	border-radius:5px;
+	padding:2px;
+	font-size:10px;
+}
+
+.panelDocklet_popup .minimizedOne, .panelDocklet .minimizedOne {
+	color:#666;
+}
+.panelDocklet_popup .chosenOne, .panelDocklet .chosenOne {
+	border:1px solid #888;
+	background-color:#363636;
+}
+.panelDocklet_popup .focusedOne, .panelDocklet .focusedOne {
+	font-weight:bold;
+}
+.panelDocklet_popup .specialOne {
+	color:#eee;
+	background-color:rgba(65, 65, 65, 0.7);
+	
+}
+
+.panelDocklet_popup .labelLine {
+	background-color:rgba(65, 65, 65, 0.7);
+	border-top: 1px solid #444;
+}
+
+.panelDocklet_popup .action_button {
+	border: 1px solid #444;
+	background-color:rgba(140, 140, 140, 0.1);
+	height:16px;
+	width:16px;
+	padding:1px 7px;
+	border-left-width:0;
+}
+.panelDocklet_popup .action_button:hover {
+	background-color:rgba(80, 80, 80, 0.7);
+	transition-duration: 300;
+}
+.panelDocklet_popup .action_button.left {
+	background-image: url("arrow_left.svg");
+}
+.panelDocklet_popup .action_button.right {
+	background-image: url("arrow_right.svg");
+}
+.panelDocklet_popup .action_button.up {
+	background-image: url("arrow_up.svg");
+}
+.panelDocklet_popup .action_button.down {
+	background-image: url("arrow_down.svg");
+}
+.panelDocklet_popup .action_button.addFav {
+	background-image: url("pin_plus.png");
+}
+.panelDocklet_popup .action_button.removeFav {
+	background-image: url("pin_minus.png");
+}
+
+
+.panelDocklet_dialog {
+	border: 1px solid #536272;
+	background-color: black;
+	border-radius: 20px;
+}
+
+.panelDocklet_dialog .myEntry {
+	padding:3px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	width: 40px;
+}
+
+.panelDocklet_dialog .dialog_button {
+	font-size: 12pt;
+	color: white;
+	
+	padding: 5px 15px 7px 13px;
+	
+	border-radius: 10px;
+	border: 1px solid #a3b2c2;
+	background-gradient-direction: vertical;
+	background-gradient-start: rgb(100, 100, 100);
+	background-gradient-end: rgb(5, 5, 5);
+}
+.panelDocklet_dialog .dialog_button:hover {
+	background-gradient-start: rgb(110, 110, 110);
+	background-gradient-end: rgb(10, 10, 10);
+}
+.panelDocklet_dialog .dialog_button:active {
+	background-gradient-start: rgb(10, 10, 10);
+	background-gradient-end: rgb(40, 40, 40);
+	padding: 6px 14px;
+	color:#bbb;
+}
+
+.panelDocklet_dialog .contentBox {
+	border-top: 2px solid #536272;
+	padding:5px;
+	color:#ccc;
+}
+.panelDocklet_dialog .naviLine {
+	border-top: 2px solid #536272;
+	border-bottom: 2px solid #536272;
+	border-right: 2px solid #536272;
+	background-gradient-start: rgb(0,0,0);
+	background-gradient-end: rgb(30,30,30);
+	background-gradient-direction: horizontal;
+}
+.panelDocklet_dialog .naviLine StButton{
+	height:20px;
+	color: #ccc;
+	padding-left:20px;
+}
+.panelDocklet_dialog .naviLine StButton:chosen {
+	background-gradient-start: rgb(60,60,60);
+	background-gradient-end: rgb(20,20,20);
+	background-gradient-direction: horizontal;
+}
+.panelDocklet_dialog .naviLine StButton:hover {
+	color:white;
+}
+.panelDocklet_dialog .headerLine {
+	padding:3px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #999;
+	background-gradient-start: rgb(50,50,50);
+	background-gradient-end: rgb(0,0,0);
+	background-gradient-direction: horizontal;
+}
+
+.panelDocklet_dialog .naviLine StButton,
+.panelDocklet_dialog .descLine,
+.panelDocklet_dialog .item_title {
+	color:#ccc;
+    font-size: 10pt;
+
+}
+.panelDocklet_dialog .descLine {
+	padding:10px 5px 20px 5px;
+}
+.panelDocklet_dialog .item_title {
+	font-weight: bold;
+}
+.panelDocklet_dialog .item_desc {
+	font-size:9pt;
+	color:#999;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
+.panelDocklet_dialog .panelDocklet_combo {
+	border: 1px solid #999;
+	border-radius: 5px;
+	background-color:#222;
+}
+.panelDocklet_dialog .popup-combo-menu {
+	background-color:black;
+}
+
+.panelDocklet_dialog .screenshot {
+	padding: 10px;
+}
+.panelDocklet_dialog .screenshot:hover {
+	background-color:#222;
+}
+.panelDocklet_dialog .screenshot .screen_panelDocklet {
+	background-image: url("panel_docklet.png");
+	width: 350px;
+	height: 80px;
+}
+.panelDocklet_dialog .screenshot .screen_panel {
+	background-image: url("panel.png");
+	width: 350px;
+	height: 80px;
+}
+.panelDocklet_dialog .screenshot .screen_big_panel {
+	background-image: url("big_panel.png");
+	width: 350px;
+	height: 80px;
+}
+.panelDocklet_dialog .screenshot .screen_docklet {
+	background-image: url("docklet.png");
+	width: 350px;
+	height: 80px;
+}
+
+.panelDocklet_windowList {
+	background-color:black;
+	border:1px solid #536272;
+	color:#ddd;
+}

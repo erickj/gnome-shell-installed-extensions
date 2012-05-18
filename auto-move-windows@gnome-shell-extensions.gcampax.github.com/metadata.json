@@ -1,0 +1,9 @@
+{
+ "uuid": "auto-move-windows@gnome-shell-extensions.gcampax.github.com",
+ "name": "Auto Move Windows",
+ "description": "Move applications to specific workspaces when they create windows",
+ "shell-version": [ "3.2.3", "3.2" ],
+"localedir": "/usr/share/locale",
+ "original-authors": [ "alessandro.crismani@gmail.com", "thomas.bouffon@gmail.com" ],
+ "url": "http://git.gnome.org/gnome-shell-extensions"
+}
